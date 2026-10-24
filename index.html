@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluepeak Concept | Premium Digital Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Meta SEO -->
+    <meta name="description" content="Bluepeak Concept creates luxury websites, branding, and digital experiences for businesses worldwide.">
+    <meta property="og:title" content="Bluepeak Concept | Premium Digital Agency">
+    <meta property="og:description" content="Design. Develop. Elevate. Luxury web design & digital solutions.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Mouse Glow -->
+    <div id="mouse-glow"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- 1. LOADING SCREEN -->
+    <div id="loader">
+        <div class="loader-logo"><i class="fa-solid fa-mountain"></i> BLUEPEAK <span>CONCEPT</span></div>
+        <div class="progress-bar-container">
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- 2. FIXED NAVIGATION BAR -->
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-mountain"></i>
+                <span>Bluepeak Concept</span>
+            </a>
+            
+            <nav class="nav-links desktop-nav">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#documents">Documents</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="btn btn-gold desktop-nav">Start Project</a>
+
+            <div class="hamburger" id="hamburger-open">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobile-drawer">
+        <i class="fa-solid fa-xmark close-nav" id="hamburger-close"></i>
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#services" class="mobile-link">Services</a>
+        <a href="#portfolio" class="mobile-link">Portfolio</a>
+        <a href="#pricing" class="mobile-link">Pricing</a>
+        <a href="#documents" class="mobile-link">Documents</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="#contact" class="btn btn-gold mobile-link" style="margin-top: 20px;">Start Project</a>
+    </div>
+
+    <!-- 3. HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-particles"></div>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-crown"></i> Premium Digital Agency
+                    </div>
+                    <h1>Building Premium Websites That Grow Businesses.</h1>
+                    <p>Bluepeak Concept creates luxury websites, branding, and digital experiences for businesses worldwide.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-gold">Start Project <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>15+</h3>
+                            <p>Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Responsive</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>24/7</h3>
+                            <p>Support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="mockup-container">
+                        <div class="laptop-frame">
+                            <div class="laptop-screen">
+                                <div style="text-align: center; color: var(--accent-gold);">
+                                    <i class="fa-solid fa-laptop-code" style="font-size: 3rem; margin-bottom: 10px;"></i>
+                                    <p style="font-family: var(--font-heading); font-size: 1.2rem;">BLUEPEAK CONCEPT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="phone-frame">
+                            <div class="phone-screen" style="display: flex; align-items: center; justify-content: center; color: var(--accent-gold);">
+                                <i class="fa-solid fa-mobile-screen-button" style="font-size: 2rem;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. TRUSTED SECTION -->
+    <section class="trusted">
+        <div class="container">
+            <div class="section-title">
+                <span>Excellence Guaranteed</span>
+                <h2>Trusted by Businesses & Entrepreneurs</h2>
+            </div>
+            <div class="trusted-grid">
+                <div class="glass-card trusted-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Premium Development</h3>
+                    <p>Clean, efficient, optimized code base tailored to perfection.</p>
+                </div>
+                <div class="glass-card trusted-card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Flawless rendering on mobile, tablet, and desktop viewports.</p>
+                </div>
+                <div class="glass-card trusted-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Fast Performance</h3>
+                    <p>Speed-optimized architectures ensuring ultra-fast load times.</p>
+                </div>
+                <div class="glass-card trusted-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Secure Websites</h3>
+                    <p>Built with high-level industry standards and protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ABOUT BLUEPEAK -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div style="width: 100%; height: 380px; background: var(--bg-navy-blue); display: flex; align-items: center; justify-content: center;">
+                        <i class="fa-solid fa-building-columns" style="font-size: 5rem; color: rgba(212, 175, 55, 0.2);"></i>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-title" style="text-align: left; margin-bottom: 20px;">
+                        <span>Who We Are</span>
+                        <h2>Architects of Digital Distinction</h2>
+                    </div>
+                    <p>Bluepeak Concept is a high-end digital agency specializing in crafting tailored digital platforms that elevate brand presence and maximize revenue generation.</p>
+                    
+                    <div class="about-tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" onclick="switchTab('mission')">Mission</button>
+                            <button class="tab-btn" onclick="switchTab('vision')">Vision</button>
+                            <button class="tab-btn" onclick="switchTab('values')">Core Values</button>
+                        </div>
+                        <div id="mission" class="tab-content active">
+                            <p>To design and construct world-class digital platforms that reflect pure luxury and absolute reliability for elite enterprises.</p>
+                        </div>
+                        <div id="vision" class="tab-content">
+                            <p>To set the absolute global benchmark for website elegance, dynamic functionality, and brand transformation.</p>
+                        </div>
+                        <div id="values" class="tab-content">
+                            <p>Precision Engineering • Uncompromising Aesthetics • Strategic Client Partnerships • Transparent Execution</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-gold">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SERVICES & BRAND SHOWCASE -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <span>Our Expertise</span>
+                <h2>End-to-End Digital Solutions</h2>
+            </div>
+            <div class="services-grid">
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Website Design</h3>
+                    <p>Custom websites built from scratch to turn visitors into loyal clients.</p>
+                    <div class="service-list">
+                        <span class="service-tag">Portfolio</span>
+                        <span class="service-tag">Corporate</span>
+                        <span class="service-tag">E-commerce</span>
+                        <span class="service-tag">Landing Pages</span>
+                    </div>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+                    <h3>Graphic Design</h3>
+                    <p>High-end corporate visual identities that command industry respect.</p>
+                    <div class="service-list">
+                        <span class="service-tag">Logo Design</span>
+                        <span class="service-tag">Brand Identity</span>
+                        <span class="service-tag">Company Profiles</span>
+                        <span class="service-tag">Flyers</span>
+                    </div>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="service-icon"><i class="fa-solid fa-file-contract"></i></div>
+                    <h3>Corporate Materials</h3>
+                    <p>Professional documentation layouts designed to execute deal flows.</p>
+                    <div class="service-list">
+                        <span class="service-tag">Invoices</span>
+                        <span class="service-tag">Receipts</span>
+                        <span class="service-tag">Contracts</span>
+                        <span class="service-tag">Proposals</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brand Showcase Section Integration -->
+            <div class="brand-showcase">
+                <div style="text-align: center;">
+                    <span style="color: var(--accent-gold); font-size: 0.85rem; letter-spacing: 2px; font-weight: 600;">BRAND SHOWCASE</span>
+                    <h3 style="font-size: 1.8rem; margin-top: 5px;">Framed Visual Artefacts</h3>
+                </div>
+                <div class="brand-showcase-grid">
+                    <div class="brand-item"><i class="fa-solid fa-scroll"></i><h4>Flyers</h4></div>
+                    <div class="brand-item"><i class="fa-solid fa-book-open"></i><h4>Profile</h4></div>
+                    <div class="brand-item"><i class="fa-solid fa-file-invoice-dollar"></i><h4>Invoice</h4></div>
+                    <div class="brand-item"><i class="fa-solid fa-receipt"></i><h4>Receipt</h4></div>
+                    <div class="brand-item"><i class="fa-solid fa-id-card"></i><h4>Business Card</h4></div>
+                    <div class="brand-item"><i class="fa-solid fa-vector-square"></i><h4>Logo Design</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. WHY CHOOSE US -->
+    <section class="why">
+        <div class="container">
+            <div class="section-title">
+                <span>The Advantage</span>
+                <h2>Why Choose Bluepeak Concept</h2>
+            </div>
+            <div class="why-grid">
+                <div class="glass-card why-card">
+                    <div class="number">01</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Optimized workflows ensuring rapid deployment without cutting corners.</p>
+                </div>
+                <div class="glass-card why-card">
+                    <div class="number">02</div>
+                    <h3>Modern Design</h3>
+                    <p>Using contemporary visual trends like glassmorphism and subtle lighting.</p>
+                </div>
+                <div class="glass-card why-card">
+                    <div class="number">03</div>
+                    <h3>Affordable Luxury</h3>
+                    <p>Top-tier world-class presentation scaled appropriately to your enterprise goals.</p>
+                </div>
+                <div class="glass-card why-card">
+                    <div class="number">04</div>
+                    <h3>Dedicated Support</h3>
+                    <p>Long-term maintenance and technical assistance whenever required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. OUR PROCESS -->
+    <section class="process">
+        <div class="container">
+            <div class="section-title">
+                <span>Workflow</span>
+                <h2>Our Seamless Process</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-content">
+                        <h3>1. Consultation</h3>
+                        <p>In-depth discussion on project parameters and goals.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-content">
+                        <h3>2. Questionnaire & Proposal</h3>
+                        <p>Defining specifications, quotations, and structural scope.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-content">
+                        <h3>3. Design & Execution</h3>
+                        <p>Crafting responsive layouts, glassmorphism UI, and code development.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card timeline-content">
+                        <h3>4. Testing & Launch</h3>
+                        <p>Cross-device quality assurance checks followed by formal deployment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. PORTFOLIO -->
+    <!-- <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <span>Case Studies</span>
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="glass-card portfolio-card" onclick="openModal('Davis Casual', 'Luxury fashion brand platform focused on custom apparel.')">
+                    <div class="portfolio-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://via.placeholder.com/600x400/0f172a/d4af37?text=Davis+Casual');">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Davis Casual</h3>
+                                <p>Fashion & E-Commerce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card portfolio-card" onclick="openModal('Fresh & Tasty', 'Localized dynamic culinary and order distribution portal.')">
+                    <div class="portfolio-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://via.placeholder.com/600x400/0f172a/d4af37?text=Fresh+%26+Tasty');">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Fresh & Tasty</h3>
+                                <p>Catering & Food Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card portfolio-card" onclick="openModal('Bluepeak Corporate', 'Agency official showcase portal featuring dynamic UI elements.')">
+                    <div class="portfolio-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://via.placeholder.com/600x400/0f172a/d4af37?text=Bluepeak+Concept');">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Bluepeak Concept</h3>
+                                <p>Corporate Agency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- 10. PRICING -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <span>Investments</span>
+                <h2>Transparent Pricing Packages</h2>
+            </div>
+            <div class="pricing-grid">
+                <div class="glass-card pricing-card">
+                    <h3>Launch</h3>
+                    <p>Ideal for personal portfolios and startups.</p>
+                    <div class="price">₦150k <span>/ project</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Responsive Single-Page Site</li>
+                        <li><i class="fa-solid fa-check"></i> Standard Contact Form</li>
+                        <li><i class="fa-solid fa-check"></i> Speed Optimization</li>
+                        <li><i class="fa-solid fa-check"></i> 1 Month Technical Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Select Launch</a>
+                </div>
+                <div class="glass-card pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Growth</h3>
+                    <p>Designed for established enterprises.</p>
+                    <div class="price">₦350k <span>/ project</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Multi-Page Architecture</li>
+                        <li><i class="fa-solid fa-check"></i> Custom Animations & Glassmorphism</li>
+                        <li><i class="fa-solid fa-check"></i> SEO & Meta Optimization</li>
+                        <li><i class="fa-solid fa-check"></i> 3 Months Technical Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-gold">Select Growth</a>
+                </div>
+                <div class="glass-card pricing-card">
+                    <h3>Elite</h3>
+                    <p>Full bespoke agency platforms & custom builds.</p>
+                    <div class="price">Custom <span>/ quote</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Enterprise Platform Systems</li>
+                        <li><i class="fa-solid fa-check"></i> Complete Brand Style Guide</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated Account Management</li>
+                        <li><i class="fa-solid fa-check"></i> Priority 24/7 Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Inquire Elite</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- 11. COMPANY DOCUMENTS -->
+<section class="documents" id="documents">
+    <div class="container">
+        <div class="section-title">
+            <span>Corporate Trust</span>
+            <h2>Official Agency Documents</h2>
+        </div>
+        
+        <div class="documents-grid">
+            
+            <!-- 1. Company Profile -->
+            <div class="glass-card doc-card" onclick="openImageModal('Company Profile', 'img/company-profile.jpg')">
+                <div class="doc-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+                <h3>Company Profile</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+            <!-- 2. Project Questionnaire -->
+            <div class="glass-card doc-card" onclick="openImageModal('Project Questionnaire', 'bluepeak.pdf ')">
+                <div class="doc-icon"><i class="fa-solid fa-clipboard-question"></i></div>
+                <h3>Project Questionnaire</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+            <!-- 3. Official Quotation -->
+            <div class="glass-card doc-card" onclick="openImageModal('Official Quotation', 'img/quotation.jpg')">
+                <div class="doc-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                <h3>Quotation</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+            <!-- 4. Invoice -->
+            <div class="glass-card doc-card" onclick="openImageModal('Invoice Template', 'img/invoice.jpg')">
+                <div class="doc-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                <h3>Invoice</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+            <!-- 5. Payment Receipt -->
+            <div class="glass-card doc-card" onclick="openImageModal('Payment Receipt', 'img/receipt.jpg')">
+                <div class="doc-icon"><i class="fa-solid fa-receipt"></i></div>
+                <h3>Receipt</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+            <!-- 6. Client Contract -->
+            <div class="glass-card doc-card" onclick="openImageModal('Client Contract', 'img/contract.jpg')">
+                <div class="doc-icon"><i class="fa-solid fa-file-signature"></i></div>
+                <h3>Contract</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+            <!-- 7. Promotional Flyer -->
+            <div class="glass-card doc-card" onclick="openImageModal('Agency Flyer', 'img/flyer.jpg')">
+                <div class="doc-icon"><i class="fa-solid fa-scroll"></i></div>
+                <h3>Promotional Flyer</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+            <!-- 8. Business Card -->
+            <div class="glass-card doc-card" onclick="openImageModal('Business Card', 'img/business-card.jpg')">
+                <div class="doc-icon"><i class="fa-solid fa-id-card"></i></div>
+                <h3>Business Card</h3>
+                <p style="font-size: 0.8rem;">Click to view full preview</p>
+                <div class="preview-btn"><i class="fa-solid fa-eye"></i> View Image</div>
+            </div>
+
+        </div>
+    </div>
+</section>                                                                                                                                                             
+<!-- 12. TESTIMONIALS -->
+<section class="testimonials">
+    <div class="container">
+        <div class="section-title">
+            <span>Endorsements</span>
+            <h2>What Clients Say</h2>
+        </div>
+        
+        <!-- Vertical Carousel Window -->
+        <div class="vertical-testimonial-window">
+            <div class="vertical-testimonial-track" id="verticalTrack">
+                
+                <!-- Testimonial 1 -->
+                <div class="glass-card v-testimonial-slide">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="testimonial-text">"Bluepeak Concept delivered a website that completely blew our expectations out of the water. The glassmorphic detailing and gold accents gave our firm the exact high-end posture we needed."</p>
+                    <div class="client-info">
+                        <h4>Chidi Okafor</h4>
+                        <p>CEO, Apex Capital Group</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="glass-card v-testimonial-slide">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="testimonial-text">"The speed of execution was remarkable. Within two weeks, our corporate identity, invoices, and web platform were completely restructured and launched flawless on mobile."</p>
+                    <div class="client-info">
+                        <h4>Amina Bello</h4>
+                        <p>Founder, Lumina Luxury Living</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="glass-card v-testimonial-slide">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="testimonial-text">"If you want clients to take your business seriously before you even say a word, let Bluepeak handle your design. The Return on Investment for our web overhaul was immediate."</p>
+                    <div class="client-info">
+                        <h4>Davis Chukwuma</h4>
+                        <p>Creative Director, Davis Casual</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="glass-card v-testimonial-slide">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="testimonial-text">"Their company document package alone elevated our contract closing rate. The attention to detail from the invoice branding to the live site animation is unmatched."</p>
+
+                    <div class="client-info">
+                        <h4>Kelechi Nnamdi</h4>
+                        <p>Managing Director, Fresh & Tasty Logistics</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="glass-card v-testimonial-slide">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="testimonial-text">"Working with Bluepeak Concept felt like collaborating with a top-tier international agency. Ultra-responsive, smooth communication, and pure technical excellence."</p>
+                    <div class="client-info">
+                        <h4>Sarah Jenkins</h4>
+                        <p>Operations Lead, Horizon Tech</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- 13. FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <span>Inquiries</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">How much does a website cost? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer"><p>Pricing depends on scope, starting from ₦150,000 for standard websites to tailored dynamic pricing for complex enterprise systems.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How long does execution take? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer"><p>Standard websites take 7-14 business days, while enterprise systems require 3-6 weeks.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Can you redesign an existing platform? <i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="faq-answer"><p>Yes, we modernize existing websites into modern, luxury platforms.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 14. AI ASSISTANT (BLUE AI) -->
+    <div id="ai-assistant">
+        <div class="ai-popup" id="ai-popup">
+            <div class="ai-header">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <i class="fa-solid fa-robot"></i>
+                    <span style="font-weight: 600;">Blue AI</span>
+                </div>
+                <i class="fa-solid fa-xmark" style="cursor: pointer;" id="ai-close"></i>
+            </div>
+            <div class="ai-body">
+                <p>Hello 👋 Welcome to Bluepeak Concept. How can I assist your business today?</p>
+                <div class="ai-buttons">
+                    <button class="ai-btn" onclick="aiRespond('Pricing starts at ₦150k. Check out our Pricing section for full details!')">Website Pricing</button>
+                    <button class="ai-btn" onclick="aiRespond('We specialize in Web Design, Branding, and Corporate Document Layouts.')">Our Services</button>
+                    <button class="ai-btn" onclick="location.href='#contact'">Start Project</button>
+                </div>
+            </div>
+        </div>
+        <div class="ai-toggle" id="ai-toggle">
+            <i class="fa-solid fa-message"></i>
+        </div>
+    </div>
+
+    <!-- 15. CTA BANNER -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-banner">
+                <h2>Ready To Build Your Dream Website?</h2>
+                <p style="margin-bottom: 25px;">Let us create a luxury digital experience for your brand.</p>
+                <a href="#contact" class="btn btn-gold">Get Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 16. CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <span>Get In Touch</span>
+                <h2>Start Your Project Today</h2>
+            </div>
+            <div class="contact-grid">
+                <form class="glass-card contact-form" style="padding: 30px;" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                    <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+                    <div class="form-group"><input type="email" placeholder="Email Address" required></div>
+                    <div class="form-group"><input type="text" placeholder="Phone Number"></div>
+                    <div class="form-group"><input type="text" placeholder="Business Name"></div>
+                    <div class="form-group">
+                        <select style="color: var(--text-gray);">
+                            <option>Select Project Type</option>
+                            <option>Website Design</option>
+                            <option>Website Redesign</option>
+                            <option>Graphic Design / Branding</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><textarea rows="4" placeholder="Describe your project specification..."></textarea></div>
+                    <button type="submit" class="btn btn-gold">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>09043315770</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>bluepeak@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Awka, Anambra State (Worldwide Service)</p>
+                        </div>
+                    </div>
+                    <div class="map-frame">
+                        <iframe width="100%" height="100%" frameborder="0" style="border:0;" src="https://maps.google.com/maps?q=Awka,Anambra,Nigeria&output=embed"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Utilities -->
+    <a href="https://wa.me/2349043315770" target="_blank" class="floating-whatsapp" title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <div class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></div>
+
+    <!-- Image Preview Modal -->
+<div class="modal" id="imageModal">
+    <div class="modal-content" style="max-width: 800px; text-align: center; padding: 20px;">
+        <i class="fa-solid fa-xmark modal-close" onclick="closeImageModal()"></i>
+        <h3 id="imageModalTitle" style="color: var(--accent-gold); margin-bottom: 15px;">Document Preview</h3>
+        
+        <!-- Image Preview Frame -->
+        <div style="width: 100%; max-height: 70vh; overflow-y: auto; border-radius: 12px; border: var(--glass-border); background: #000;">
+            <img id="modalPreviewImage" src="" alt="Preview" style="width: 100%; height: auto; display: block; border-radius: 12px;">
+        </div>
+
+        <div style="margin-top: 15px; display: flex; justify-content: center; gap: 10px;">
+            <a id="downloadImgBtn" href="" download class="btn btn-gold" style="padding: 10px 20px; font-size: 0.85rem;">
+                <i class="fa-solid fa-download"></i> Download Image
+            </a>
+            <button class="btn btn-outline" onclick="closeImageModal()" style="padding: 10px 20px; font-size: 0.85rem;">Close</button>
+        </div>
+    </div>
+</div>   
+    <!-- 17. FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="margin-bottom: 15px;">
+                        <i class="fa-solid fa-mountain"></i>
+                        <span>Bluepeak Concept</span>
+                    </div>
+                    <p style="font-size: 0.85rem;">Luxury web design, branding, and dynamic digital solutions engineered for growth.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Website Design</a></li>
+                        <li><a href="#services">Graphic Design</a></li>
+                        <li><a href="#services">Brand Identity</a></li>
+                        <li><a href="#services">Company Profile</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p style="font-size: 0.85rem;">Awka, Anambra State<br>09043315770<br>bluepeak@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bluepeak Concept. Design. Develop. Elevate. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE JAVASCRIPT LOGIC -->
+    <script>
+        // Loading Screen Handler
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const loader = document.getElementById('loader');
+                loader.style.opacity = '0';
+                loader.style.visibility = 'hidden';
+            }, 1800);
+        });
+
+        // Sticky Navbar & Back to Top visibility
+        const navbar = document.getElementById('navbar');
+        const backToTop = document.getElementById('backToTop');
+        const progressBar = document.getElementById('scroll-progress');
+
+        window.addEventListener('scroll', () => {
+            // Scroll Progress Calculation
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            progressBar.style.width = scrolled + "%";
+
+            // Navbar Glass Transformation
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            // Back to Top trigger
+            if (window.scrollY > 400) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Custom Mouse Glow Handler
+        const mouseGlow = document.getElementById('mouse-glow');
+        document.addEventListener('mousemove', (e) => {
+            mouseGlow.style.left = e.clientX + 'px';
+            mouseGlow.style.top = e.clientY + 'px';
+        });
+
+        // Mobile Nav Drawer Toggle
+        const hamburgerOpen = document.getElementById('hamburger-open');
+        const hamburgerClose = document.getElementById('hamburger-close');
+        const mobileDrawer = document.getElementById('mobile-drawer');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        hamburgerOpen.addEventListener('click', () => mobileDrawer.classList.add('open'));
+        hamburgerClose.addEventListener('click', () => mobileDrawer.classList.remove('open'));
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => mobileDrawer.classList.remove('open'));
+        });
+
+        // Tab Switching for About Section
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        // AI Assistant Interactive Logic
+        const aiToggle = document.getElementById('ai-toggle');
+        const aiPopup = document.getElementById('ai-popup');
+        const aiClose = document.getElementById('ai-close');
+
+        aiToggle.addEventListener('click', () => aiPopup.classList.toggle('open'));
+        aiClose.addEventListener('click', () => aiPopup.classList.remove('open'));
+
+        function aiRespond(msg) {
+            alert("Blue AI: " + msg);
+        }
+
+        // Modal Handlers
+        const modal = document.getElementById('infoModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalBody = document.getElementById('modalBody');
+
+        function openModal(title, text) {
+            modalTitle.innerText = title;
+            modalBody.innerText = text;
+            modal.style.display = 'flex';
+        }
+
+        function openDocModal(docName) {
+            modalTitle.innerText = "Document Preview: " + docName;
+            modalBody.innerText = "Viewing formal agency layout specifications for " + docName + ". Styled according to official brand guidelines.";
+            modal.style.display = 'flex';
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+
+        // Vertical Auto-Swipe Up Testimonial Engine
+const verticalTrack = document.getElementById('verticalTrack');
+const totalSlides = document.querySelectorAll('.v-testimonial-slide').length;
+let currentSlideIndex = 0;
+
+// Clone first slide to the end for seamless infinite looping
+const firstSlideClone = verticalTrack.children[0].cloneNode(true);
+verticalTrack.appendChild(firstSlideClone);
+
+function autoSwipeUp() {
+    currentSlideIndex++;
+    
+    // Enable smooth transition
+    verticalTrack.style.transition = 'transform 0.8s cubic-bezier(0.65, 0, 0.35, 1)';
+    verticalTrack.style.transform = `translateY(-${currentSlideIndex * 280}px)`;
+
+    // When reaching cloned slide, reset back to index 0 silently
+    if (currentSlideIndex === totalSlides) {
+        setTimeout(() => {
+            verticalTrack.style.transition = 'none';
+            currentSlideIndex = 0;
+            verticalTrack.style.transform = `translateY(0px)`;
+        }, 800); // Matches transition duration
+    }
+}
+
+// Automatically swipe up every 4 seconds
+setInterval(autoSwipeUp, 4000);
+    </script>
+</body>
+</html>
